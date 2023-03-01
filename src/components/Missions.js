@@ -16,7 +16,9 @@ class Missions extends Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        { mapMissions }
+        <div className="box-missions">
+          { mapMissions }
+        </div>
       </div>
     );
   }
